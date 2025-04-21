@@ -1,0 +1,20 @@
+{
+  "name": "smart-debt-pros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch public/css/main.scss:public/css/main.css",
+    "start": "lite-server",
+    "dev": "concurrently \"npm run sass\" \"npm run start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Smart Debt Pros HTML/CSS/JS setup with SASS, jQuery, and live reload.",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "jquery": "^3.7.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.86.3" 
+  }
+}
