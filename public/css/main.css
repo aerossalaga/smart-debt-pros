@@ -1002,5 +1002,28 @@ body.side-nav-open .side-nav {
 .transform-credit-loan-action {
   text-align: center;
 }
+.transform-credit-button {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #20B736;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  display: block;
+  border: 2px solid #20B736;
+  margin-top: 30px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.transform-credit-button:hover {
+  background-color: #fff;
+  border-color: #20B736;
+  color: #20B736;
+}
 
 /*# sourceMappingURL=main.css.map */
