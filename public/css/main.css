@@ -864,33 +864,33 @@ body.side-nav-open .side-nav {
     transform: rotate(360deg);
   }
 }
-.transform-credit-notif-banner {
+.smlpros-notif-banner {
   background-color: #3E70A9;
   color: #fff;
   padding: 15px 0;
 }
-.transform-credit-notif-banner-container {
+.smlpros-notif-banner-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-.transform-credit-notif-banner-link {
+.smlpros-notif-banner-link {
   display: inline-block;
 }
-.transform-credit-notif-banner-link img {
+.smlpros-notif-banner-link img {
   width: 20px;
   height: 20px;
 }
-.transform-credit-summary {
+.smlpros-summary {
   padding: 50px 0;
   background-color: #f8f8f8;
 }
-.transform-credit-summary-header {
+.smlpros-summary-header {
   text-align: center;
   margin-bottom: 40px;
 }
-.transform-credit-summary-header h2 {
+.smlpros-summary-header h2 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 28px;
@@ -899,7 +899,7 @@ body.side-nav-open .side-nav {
   color: #3E70A9;
   margin-bottom: 20px;
 }
-.transform-credit-summary-header h4 {
+.smlpros-summary-header h4 {
   font-size: 16px;
   font-weight: 700;
   display: flex;
@@ -907,16 +907,16 @@ body.side-nav-open .side-nav {
   justify-content: center;
   gap: 5px;
 }
-.transform-credit-summary-header-link {
+.smlpros-summary-header-link {
   display: inline-block;
   margin-left: 5px;
 }
-.transform-credit-summary-header-link img {
+.smlpros-summary-header-link img {
   width: 20px;
   height: 20px;
   display: block;
 }
-.transform-credit-summary-content {
+.smlpros-summary-content {
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -924,7 +924,7 @@ body.side-nav-open .side-nav {
   max-width: 800px;
   margin: 0 auto;
 }
-.transform-credit-summary-content h2 {
+.smlpros-summary-content h2 {
   text-align: center;
   font-size: 24px;
   margin-bottom: 30px;
@@ -934,75 +934,75 @@ body.side-nav-open .side-nav {
   justify-content: center;
   gap: 10px;
 }
-.transform-credit-summary-content-link {
+.smlpros-summary-content-link {
   display: inline-block;
 }
-.transform-credit-summary-content-link img {
+.smlpros-summary-content-link img {
   width: 20px;
   height: 20px;
 }
-.transform-credit-summary-footer {
+.smlpros-summary-footer {
   margin: 0 auto;
   margin-top: 20px;
   max-width: 800px;
 }
-.transform-credit-edit-link img {
+.smlpros-edit-link img {
   width: 20px;
   height: 20px;
 }
-.transform-credit-numeric-list {
+.smlpros-numeric-list {
   counter-reset: item;
   list-style-type: none;
   padding-left: 0;
   font-size: 16px;
   line-height: 1.3;
 }
-.transform-credit-numeric-list > li {
+.smlpros-numeric-list > li {
   counter-increment: item;
   margin-bottom: 20px;
   position: relative;
   padding-left: 30px;
 }
-.transform-credit-numeric-list > li::before {
+.smlpros-numeric-list > li::before {
   content: counter(item) ".";
   position: absolute;
   left: 0;
   font-weight: bold;
 }
-.transform-credit-numeric-list p {
+.smlpros-numeric-list p {
   margin: 5px 0;
 }
-.transform-credit-alphabetic-list {
+.smlpros-alphabetic-list {
   padding-left: 20px;
   margin-top: 15px;
   list-style: lower-alpha;
 }
-.transform-credit-alphabetic-list p {
+.smlpros-alphabetic-list p {
   margin: 5px 0;
 }
-.transform-credit-disclaimer {
+.smlpros-disclaimer {
   margin: 20px 0;
   color: #666;
   font-size: 14px;
 }
-.transform-credit-consent-checkbox {
+.smlpros-consent-checkbox {
   display: flex;
   align-items: flex-start;
   gap: 10px;
   margin-bottom: 30px;
 }
-.transform-credit-consent-checkbox label {
+.smlpros-consent-checkbox label {
   font-size: 14px;
   color: #666;
 }
-.transform-credit-consent-checkbox a {
+.smlpros-consent-checkbox a {
   color: #3E70A9;
   text-decoration: none;
 }
-.transform-credit-loan-action {
+.smlpros-loan-action {
   text-align: center;
 }
-.transform-credit-button {
+.smlpros-button {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -1020,7 +1020,7 @@ body.side-nav-open .side-nav {
   width: 100%;
   transition: all 0.3s ease-in-out;
 }
-.transform-credit-button:hover {
+.smlpros-button:hover {
   background-color: #fff;
   border-color: #20B736;
   color: #20B736;
